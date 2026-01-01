@@ -1,0 +1,4 @@
+data:
+  source: yahoo
+  frequency: daily
+  start_date: "2016-01-01"

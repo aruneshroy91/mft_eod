@@ -1,0 +1,131 @@
+# config/universe.yaml
+
+universe:
+  name: "NIFTY100"
+  exchange: "NSE"
+  source: "hardcoded"
+  tickers:
+
+    # Banking & Financials
+    HDFCBANK.NS: { sector: Banking }
+    ICICIBANK.NS: { sector: Banking }
+    SBIN.NS: { sector: Banking }
+    AXISBANK.NS: { sector: Banking }
+    KOTAKBANK.NS: { sector: Banking }
+    BANKBARODA.NS: { sector: Banking }
+    PNB.NS: { sector: Banking }
+    CANBK.NS: { sector: Banking }
+
+    BAJFINANCE.NS: { sector: NBFC }
+    BAJAJFINSV.NS: { sector: NBFC }
+    SHRIRAMFIN.NS: { sector: NBFC }
+    CHOLAFIN.NS: { sector: NBFC }
+    PFC.NS: { sector: NBFC }
+    RECLTD.NS: { sector: NBFC }
+
+    SBILIFE.NS: { sector: Insurance }
+    HDFCLIFE.NS: { sector: Insurance }
+    ICICIGI.NS: { sector: Insurance }
+    LICI.NS: { sector: Insurance }
+
+    # IT & Technology
+    TCS.NS: { sector: IT }
+    INFY.NS: { sector: IT }
+    HCLTECH.NS: { sector: IT }
+    WIPRO.NS: { sector: IT }
+    TECHM.NS: { sector: IT }
+    LTIM.NS: { sector: IT }
+    NAUKRI.NS: { sector: Internet }
+
+    # FMCG & Consumption
+    HINDUNILVR.NS: { sector: FMCG }
+    ITC.NS: { sector: FMCG }
+    NESTLEIND.NS: { sector: FMCG }
+    BRITANNIA.NS: { sector: FMCG }
+    TATACONSUM.NS: { sector: FMCG }
+    GODREJCP.NS: { sector: FMCG }
+    VBL.NS: { sector: FMCG }
+
+    DMART.NS: { sector: Retail }
+    TRENT.NS: { sector: Retail }
+
+    # Automobiles
+    MARUTI.NS: { sector: Auto }
+    M&M.NS: { sector: Auto }
+    TATAMOTORS.NS: { sector: Auto }
+    EICHERMOT.NS: { sector: Auto }
+    TVSMOTOR.NS: { sector: Auto }
+    BAJAJ-AUTO.NS: { sector: Auto }
+    MOTHERSON.NS: { sector: Auto Ancillary }
+
+    # Metals & Materials
+    TATASTEEL.NS: { sector: Metals }
+    JSWSTEEL.NS: { sector: Metals }
+    HINDALCO.NS: { sector: Metals }
+    JINDALSTEL.NS: { sector: Metals }
+    HINDZINC.NS: { sector: Metals }
+    VEDL.NS: { sector: Metals }
+    GRASIM.NS: { sector: Materials }
+    SHREECEM.NS: { sector: Cement }
+    ULTRACEMCO.NS: { sector: Cement }
+    AMBUJACEM.NS: { sector: Cement }
+
+    # Energy & Utilities
+    RELIANCE.NS: { sector: Energy }
+    ONGC.NS: { sector: Energy }
+    IOC.NS: { sector: Energy }
+    BPCL.NS: { sector: Energy }
+    GAIL.NS: { sector: Energy }
+
+    NTPC.NS: { sector: Utilities }
+    POWERGRID.NS: { sector: Utilities }
+    TATAPOWER.NS: { sector: Utilities }
+    ADANIPOWER.NS: { sector: Utilities }
+    JSWENERGY.NS: { sector: Utilities }
+
+    ADANIGREEN.NS: { sector: Renewable Energy }
+    ADANIENSOL.NS: { sector: Renewable Energy }
+
+    # Industrials & Infrastructure
+    LT.NS: { sector: Infrastructure }
+    ADANIPORTS.NS: { sector: Infrastructure }
+    BEL.NS: { sector: Defence }
+    HAL.NS: { sector: Defence }
+    MAZDOCK.NS: { sector: Defence }
+    ABB.NS: { sector: Industrials }
+    SIEMENS.NS: { sector: Industrials }
+    SIEMENSENER.NS: { sector: Industrials }
+    CGPOWER.NS: { sector: Industrials }
+    BOSCHLTD.NS: { sector: Industrials }
+    LODHA.NS: { sector: Real Estate }
+    DLF.NS: { sector: Real Estate }
+
+    # Healthcare & Pharma
+    SUNPHARMA.NS: { sector: Pharma }
+    DRREDDY.NS: { sector: Pharma }
+    CIPLA.NS: { sector: Pharma }
+    DIVISLAB.NS: { sector: Pharma }
+    ZYDUSLIFE.NS: { sector: Pharma }
+    TORNTPHARM.NS: { sector: Pharma }
+    APOLLOHOSP.NS: { sector: Healthcare }
+    MAXHEALTH.NS: { sector: Healthcare }
+
+    # Transport & Services
+    INDIGO.NS: { sector: Aviation }
+    IRFC.NS: { sector: Railways }
+    INDHOTEL.NS: { sector: Hospitality }
+
+    # Others
+    TITAN.NS: { sector: Consumer Durables }
+    ASIANPAINT.NS: { sector: Consumer Durables }
+    HAVELLS.NS: { sector: Consumer Durables }
+    PIDILITIND.NS: { sector: Chemicals }
+    SOLARINDS.NS: { sector: Chemicals }
+    UNITDSPR.NS: { sector: Alcohol }
+    COALINDIA.NS: { sector: Mining }
+    ADANIENT.NS: { sector: Conglomerate }
+    ETERNAL.NS: { sector: Conglomerate }
+    JIOFIN.NS: { sector: Financial Services }
+    BAJAJHLDNG.NS: { sector: Holding Company }
+    BAJAJHFL.NS: { sector: Housing Finance }
+    HYUNDAI.NS: { sector: Auto }
